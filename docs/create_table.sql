@@ -1,3 +1,4 @@
+create database hnjz;
 use hnjz;
 drop table h_s_order;
 create table h_s_order
