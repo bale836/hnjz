@@ -76,6 +76,55 @@ h_provider
 
 
 ½Ó¿Ú
+saleorder:
+/hnjz/v0.1/createsaleorder
+{
+    "customerID": 
+    "productID": 
+    "amount": 
+    "discount": 
+    "deliverDeadline": 
+}
+
+/hnjz/v0.1/querysaleorder
+{
+    "customerID": 
+    "productID": 
+}
+
+/hnjz/v0.1/modifysaleorder
+{
+    "orderID": 
+    "customerID": 
+    "productID": 
+    "amount": 
+    "discount": 
+    "status": 
+    "deliverDeadline": 
+}
+
+/hnjz/v0.1/createsaleproduct
+{
+    "productName": 
+    "productPrice": 
+    "productRemark": 
+}
+
+/hnjz/v0.1/querysaleproduct
+{
+    "productID": 
+    "productName": 
+}
+
+/hnjz/v0.1/modifysaleproduct
+{
+    "productID": 
+    "productName": 
+    "productPrice": 
+    "productRemark": 
+}
+
+purchaseorder:
 /hnjz/v0.1/createsaleorder
 {
     "customerID": 
